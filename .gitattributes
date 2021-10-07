@@ -1,2 +1,2 @@
-.fa.gz filter=lfs diff=lfs merge=lfs -text
+*.html linguist-detectable=false
 *.fa.gz filter=lfs diff=lfs merge=lfs -text
