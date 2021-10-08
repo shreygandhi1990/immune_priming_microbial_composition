@@ -20,7 +20,6 @@ library(DECIPHER)
 library(phangorn)
 library(ape)
 library(decontam)
-setwd("/home/shrey/ana_metagenome/Upload/")
 ```
 
 ## **Pre-processing the reads:**
