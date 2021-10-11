@@ -1,7 +1,9 @@
 ---
 title: Microbiome composition upon priming in the larvae of *Tribolium castaneum*
 author: "Shrey Gandhi; Ana Korsa"
-output: html_document
+output: 
+  html_document:
+        keep_md: true
 ---
 ## **Project Overview**
 Priming response (enhanced survival upon secondary infection) has been demonstrated with different routes (septic and oral) in the red flour beetle *Tribolium castaneum* and shows to have high degree of specificity.  Some studies have pointed out the importance of the hosts natural microbiota, suggesting that priming  might be partially explained by the presence of commensal bacteria in the gut. Using a well established model system for studying host-parasite interaction and insect immunity, red flour beetle *Tribolium castaneum* and enthomopathogenic bacterium *Bacillus thurigiensis* (Bt), we have studied if priming could influence microbiome composition of the beetle larvae. We conducted an experiment using the two established routes of priming in this system: injection with heat-killed Bt and oral via ingestion of filtered sterilized bacterial spore supernatants by beetle larvae, with diverse strains of Bt varying in their ability to induce priming. Microbiota composition was assessed after the priming treatment by deep sequencing of the v1-v2 region of the bacterial 16S rRNA gene.
@@ -260,7 +262,6 @@ gc(full = TRUE)
 sessionInfo()
 
 ```
-
 
 
 
