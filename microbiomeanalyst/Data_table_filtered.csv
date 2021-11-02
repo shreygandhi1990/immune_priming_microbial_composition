@@ -1,80 +1,80 @@
-#NAME	Nr	Samples	Regime	Time_point	Extraction_batch	Regime_Type	Regime_Condition	Treatment	Sample	is.neg
-I21631-L1	1	I21631-L1	Injection_Naive	1	1	Injection	Naive	naive	Sample	FALSE
-I21632-L1	2	I21632-L1	Injection_Naive	2	1	Injection	Naive	naive	Sample	FALSE
-I21634-L1	4	I21634-L1	Injection_Wounded	2	1	Injection	Wounded	I-W	Sample	FALSE
-I21635-L1	5	I21635-L1	Injection_Priming	1	1	Injection	Priming	I	Sample	FALSE
-I21636-L1	6	I21636-L1	Injection_Priming	2	1	Injection	Priming	I	Sample	FALSE
-I21637-L1	7	I21637-L1	Oral_Medium	1	1	Oral	Medium	medium	Sample	FALSE
-I21639-L1	9	I21639-L1	Oral_Btt	1	1	Oral	Btt	Oral	Sample	FALSE
-I21641-L1	11	I21641-L1	Oral_Bttol	1	1	Oral	Bttol	OralTol	Sample	FALSE
-I21643-L1	13	I21643-L1	Oral_Bt407	1	1	Oral	Bt407	Oral407	Sample	FALSE
-I21645-L1	15	I21645-L1	Injection_Naive	1	2	Injection	Naive	naive	Sample	FALSE
-I21646-L1	16	I21646-L1	Injection_Naive	2	2	Injection	Naive	naive	Sample	FALSE
-I21647-L1	17	I21647-L1	Injection_Wounded	1	2	Injection	Wounded	I-W	Sample	FALSE
-I21648-L1	18	I21648-L1	Injection_Wounded	2	2	Injection	Wounded	I-W	Sample	FALSE
-I21649-L1	19	I21649-L1	Injection_Priming	1	2	Injection	Priming	I	Sample	FALSE
-I21650-L1	20	I21650-L1	Oral_Btt	2	1	Oral	Btt	Oral	Sample	FALSE
-I21651-L1	21	I21651-L1	Oral_Medium	1	2	Oral	Medium	medium	Sample	FALSE
-I21652-L1	22	I21652-L1	Oral_Medium	2	2	Oral	Medium	medium	Sample	FALSE
-I21653-L1	23	I21653-L1	Oral_Bttol	1	2	Oral	Bttol	OralTol	Sample	FALSE
-I21654-L1	24	I21654-L1	Oral_Btt	2	2	Oral	Btt	Oral	Sample	FALSE
-I21655-L1	25	I21655-L1	Oral_Medium	2	1	Oral	Medium	medium	Sample	FALSE
-I21656-L1	26	I21656-L1	Oral_Bttol	2	2	Oral	Bttol	OralTol	Sample	FALSE
-I21657-L1	27	I21657-L1	Oral_Bt407	1	2	Oral	Bt407	Oral407	Sample	FALSE
-I21658-L1	28	I21658-L1	Oral_Bt407	2	2	Oral	Bt407	Oral407	Sample	FALSE
-I21659-L1	29	I21659-L1	Injection_Naive	1	2	Injection	Naive	naive	Sample	FALSE
-I21660-L1	30	I21660-L1	Injection_Naive	2	2	Injection	Naive	naive	Sample	FALSE
-I21661-L1	31	I21661-L1	Injection_Wounded	1	2	Injection	Wounded	I-W	Sample	FALSE
-I21662-L1	32	I21662-L1	Injection_Wounded	2	2	Injection	Wounded	I-W	Sample	FALSE
-I21663-L1	33	I21663-L1	Injection_Priming	1	2	Injection	Priming	I	Sample	FALSE
-I21664-L1	34	I21664-L1	Injection_Priming	2	2	Injection	Priming	I	Sample	FALSE
-I21665-L1	35	I21665-L1	Oral_Medium	1	2	Oral	Medium	medium	Sample	FALSE
-I21666-L1	36	I21666-L1	Oral_Medium	2	2	Oral	Medium	medium	Sample	FALSE
-I21667-L1	37	I21667-L1	Oral_Btt	1	2	Oral	Btt	Oral	Sample	FALSE
-I21668-L1	38	I21668-L1	Oral_Btt	2	2	Oral	Btt	Oral	Sample	FALSE
-I21669-L1	39	I21669-L1	Oral_Bttol	1	2	Oral	Bttol	OralTol	Sample	FALSE
-I21670-L1	40	I21670-L1	Injection_Wounded	1	1	Injection	Wounded	I-W	Sample	FALSE
-I21671-L1	41	I21671-L1	Oral_Bt407	1	2	Oral	Bt407	Oral407	Sample	FALSE
-I21673-L1	43	I21673-L1	Injection_Naive	1	3	Injection	Naive	naive	Sample	FALSE
-I21674-L1	44	I21674-L1	Injection_Naive	2	3	Injection	Naive	naive	Sample	FALSE
-I21675-L1	45	I21675-L1	Injection_Wounded	1	3	Injection	Wounded	I-W	Sample	FALSE
-I21676-L1	46	I21676-L1	Injection_Wounded	2	3	Injection	Wounded	I-W	Sample	FALSE
-I21677-L1	47	I21677-L1	Injection_Priming	1	3	Injection	Priming	I	Sample	FALSE
-I21678-L1	48	I21678-L1	Injection_Priming	2	3	Injection	Priming	I	Sample	FALSE
-I21679-L1	49	I21679-L1	Oral_Medium	1	3	Oral	Medium	medium	Sample	FALSE
-I21680-L1	50	I21680-L1	Oral_Medium	2	3	Oral	Medium	medium	Sample	FALSE
-I21681-L1	51	I21681-L1	Oral_Btt	1	3	Oral	Btt	Oral	Sample	FALSE
-I21682-L1	52	I21682-L1	Oral_Btt	2	3	Oral	Btt	Oral	Sample	FALSE
-I21683-L1	53	I21683-L1	Oral_Bttol	1	3	Oral	Bttol	OralTol	Sample	FALSE
-I21684-L1	54	I21684-L1	Oral_Bttol	2	3	Oral	Bttol	OralTol	Sample	FALSE
-I21685-L1	55	I21685-L1	Oral_Bt407	1	3	Oral	Bt407	Oral407	Sample	FALSE
-I21686-L1	56	I21686-L1	Oral_Bt407	2	3	Oral	Bt407	Oral407	Sample	FALSE
-I21687-L1	57	I21687-L1	Injection_Naive	1	4	Injection	Naive	naive	Sample	FALSE
-I21688-L1	58	I21688-L1	Injection_Naive	2	4	Injection	Naive	naive	Sample	FALSE
-I21689-L1	59	I21689-L1	Injection_Wounded	1	4	Injection	Wounded	I-W	Sample	FALSE
-I21690-L1	60	I21690-L1	Injection_Wounded	2	4	Injection	Wounded	I-W	Sample	FALSE
-I21691-L1	61	I21691-L1	Injection_Priming	1	4	Injection	Priming	I	Sample	FALSE
-I21692-L1	62	I21692-L1	Injection_Priming	2	4	Injection	Priming	I	Sample	FALSE
-I21693-L1	63	I21693-L1	Oral_Medium	1	4	Oral	Medium	medium	Sample	FALSE
-I21694-L1	64	I21694-L1	Oral_Medium	2	4	Oral	Medium	medium	Sample	FALSE
-I21695-L1	65	I21695-L1	Oral_Btt	1	4	Oral	Btt	Oral	Sample	FALSE
-I21696-L1	66	I21696-L1	Injection_Priming	2	2	Injection	Priming	I	Sample	FALSE
-I21697-L1	67	I21697-L1	Oral_Bttol	1	4	Oral	Bttol	OralTol	Sample	FALSE
-I21698-L1	68	I21698-L1	Oral_Bttol	2	4	Oral	Bttol	OralTol	Sample	FALSE
-I21700-L1	70	I21700-L1	Oral_Bt407	2	4	Oral	Bt407	Oral407	Sample	FALSE
-I21701-L1	71	I21701-L1	Injection_Naive	1	5	Injection	Naive	naive	Sample	FALSE
-I21702-L1	72	I21702-L1	Injection_Naive	2	5	Injection	Naive	naive	Sample	FALSE
-I21703-L1	73	I21703-L1	Injection_Wounded	1	5	Injection	Wounded	I-W	Sample	FALSE
-I21704-L1	74	I21704-L1	Injection_Wounded	2	5	Injection	Wounded	I-W	Sample	FALSE
-I21705-L1	75	I21705-L1	Injection_Priming	1	5	Injection	Priming	I	Sample	FALSE
-I21706-L1	76	I21706-L1	Injection_Priming	2	5	Injection	Priming	I	Sample	FALSE
-I21707-L1	77	I21707-L1	Oral_Medium	1	5	Oral	Medium	medium	Sample	FALSE
-I21708-L1	78	I21708-L1	Oral_Medium	2	5	Oral	Medium	medium	Sample	FALSE
-I21709-L1	79	I21709-L1	Oral_Btt	1	5	Oral	Btt	Oral	Sample	FALSE
-I21710-L1	80	I21710-L1	Oral_Btt	2	5	Oral	Btt	Oral	Sample	FALSE
-I21711-L1	81	I21711-L1	Oral_Bttol	1	5	Oral	Bttol	OralTol	Sample	FALSE
-I21712-L1	82	I21712-L1	Oral_Bttol	2	5	Oral	Bttol	OralTol	Sample	FALSE
-I21713-L1	83	I21713-L1	Oral_Bt407	1	5	Oral	Bt407	Oral407	Sample	FALSE
-I21714-L1	84	I21714-L1	Oral_Bt407	2	5	Oral	Bt407	Oral407	Sample	FALSE
-I21740-L1	87	I21740-L1	Oral_Bttol	2	2	Oral	Bttol	OralTol	Sample	FALSE
-I21741-L1	88	I21741-L1	Oral_Bt407	2	1	Oral	Bt407	Oral407	Sample	FALSE
+#NAME	Number	SampleID	NewID	Samples	Regime	Time_point	Extraction_batch	Regime_Type	Regime_Condition	Treatment	Sample_Type
+I21631-L1	1	E029807	I21631	I21631-L1	Injection_Naive	A	1	Injection	Naive	naive	Sample
+I21632-L1	2	E029808	I21632	I21632-L1	Injection_Naive	B	1	Injection	Naive	naive	Sample
+I21634-L1	4	E029810	I21634	I21634-L1	Injection_Wounded	B	1	Injection	Wounded	I-W	Sample
+I21635-L1	5	E029811	I21635	I21635-L1	Injection_Priming	A	1	Injection	Priming	I	Sample
+I21636-L1	6	E029812	I21636	I21636-L1	Injection_Priming	B	1	Injection	Priming	I	Sample
+I21637-L1	7	E029813	I21637	I21637-L1	Oral_Medium	A	1	Oral	Medium	medium	Sample
+I21639-L1	9	E029815	I21639	I21639-L1	Oral_Btt	A	1	Oral	Btt	Oral	Sample
+I21641-L1	11	E029817	I21641	I21641-L1	Oral_Bttol	A	1	Oral	Bttol	OralTol	Sample
+I21643-L1	13	E029818	I21643	I21643-L1	Oral_Bt407	A	1	Oral	Bt407	Oral407	Sample
+I21645-L1	15	E029820	I21645	I21645-L1	Injection_Naive	A	2	Injection	Naive	naive	Sample
+I21646-L1	16	E029821	I21646	I21646-L1	Injection_Naive	B	2	Injection	Naive	naive	Sample
+I21647-L1	17	E029822	I21647	I21647-L1	Injection_Wounded	A	2	Injection	Wounded	I-W	Sample
+I21648-L1	18	E029823	I21648	I21648-L1	Injection_Wounded	B	2	Injection	Wounded	I-W	Sample
+I21649-L1	19	E029824	I21649	I21649-L1	Injection_Priming	A	2	Injection	Priming	I	Sample
+I21650-L1	20	E029816	I21650	I21650-L1	Oral_Btt	B	1	Oral	Btt	Oral	Sample
+I21651-L1	21	E029826	I21651	I21651-L1	Oral_Medium	A	2	Oral	Medium	medium	Sample
+I21652-L1	22	E029827	I21652	I21652-L1	Oral_Medium	B	2	Oral	Medium	medium	Sample
+I21653-L1	23	E029829	I21653	I21653-L1	Oral_Bttol	A	2	Oral	Bttol	OralTol	Sample
+I21654-L1	24	E029828	I21654	I21654-L1	Oral_Btt	B	2	Oral	Btt	Oral	Sample
+I21655-L1	25	E029814	I21655	I21655-L1	Oral_Medium	B	1	Oral	Medium	medium	Sample
+I21656-L1	26	E029831	I21656	I21656-L1	Oral_Bttol	B	2	Oral	Bttol	OralTol	Sample
+I21657-L1	27	E029832	I21657	I21657-L1	Oral_Bt407	A	2	Oral	Bt407	Oral407	Sample
+I21658-L1	28	E029833	I21658	I21658-L1	Oral_Bt407	B	2	Oral	Bt407	Oral407	Sample
+I21659-L1	29	E029836	I21659	I21659-L1	Injection_Naive	A	2	Injection	Naive	naive	Sample
+I21660-L1	30	E029837	I21660	I21660-L1	Injection_Naive	B	2	Injection	Naive	naive	Sample
+I21661-L1	31	E029838	I21661	I21661-L1	Injection_Wounded	A	2	Injection	Wounded	I-W	Sample
+I21662-L1	32	E029839	I21662	I21662-L1	Injection_Wounded	B	2	Injection	Wounded	I-W	Sample
+I21663-L1	33	E029840	I21663	I21663-L1	Injection_Priming	A	2	Injection	Priming	I	Sample
+I21664-L1	34	E029841	I21664	I21664-L1	Injection_Priming	B	2	Injection	Priming	I	Sample
+I21665-L1	35	E029842	I21665	I21665-L1	Oral_Medium	A	2	Oral	Medium	medium	Sample
+I21666-L1	36	E029843	I21666	I21666-L1	Oral_Medium	B	2	Oral	Medium	medium	Sample
+I21667-L1	37	E029844	I21667	I21667-L1	Oral_Btt	A	2	Oral	Btt	Oral	Sample
+I21668-L1	38	E029845	I21668	I21668-L1	Oral_Btt	B	2	Oral	Btt	Oral	Sample
+I21669-L1	39	E029846	I21669	I21669-L1	Oral_Bttol	A	2	Oral	Bttol	OralTol	Sample
+I21670-L1	40	E029809	I21670	I21670-L1	Injection_Wounded	A	1	Injection	Wounded	I-W	Sample
+I21671-L1	41	E029848	I21671	I21671-L1	Oral_Bt407	A	2	Oral	Bt407	Oral407	Sample
+I21673-L1	43	E029849	I21673	I21673-L1	Injection_Naive	A	3	Injection	Naive	naive	Sample
+I21674-L1	44	E029850	I21674	I21674-L1	Injection_Naive	B	3	Injection	Naive	naive	Sample
+I21675-L1	45	E029851	I21675	I21675-L1	Injection_Wounded	A	3	Injection	Wounded	I-W	Sample
+I21676-L1	46	E029852	I21676	I21676-L1	Injection_Wounded	B	3	Injection	Wounded	I-W	Sample
+I21677-L1	47	E029853	I21677	I21677-L1	Injection_Priming	A	3	Injection	Priming	I	Sample
+I21678-L1	48	E029854	I21678	I21678-L1	Injection_Priming	B	3	Injection	Priming	I	Sample
+I21679-L1	49	E029855	I21679	I21679-L1	Oral_Medium	A	3	Oral	Medium	medium	Sample
+I21680-L1	50	E029856	I21680	I21680-L1	Oral_Medium	B	3	Oral	Medium	medium	Sample
+I21681-L1	51	E029857	I21681	I21681-L1	Oral_Btt	A	3	Oral	Btt	Oral	Sample
+I21682-L1	52	E029858	I21682	I21682-L1	Oral_Btt	B	3	Oral	Btt	Oral	Sample
+I21683-L1	53	E029859	I21683	I21683-L1	Oral_Bttol	A	3	Oral	Bttol	OralTol	Sample
+I21684-L1	54	E029860	I21684	I21684-L1	Oral_Bttol	B	3	Oral	Bttol	OralTol	Sample
+I21685-L1	55	E029861	I21685	I21685-L1	Oral_Bt407	A	3	Oral	Bt407	Oral407	Sample
+I21686-L1	56	E029862	I21686	I21686-L1	Oral_Bt407	B	3	Oral	Bt407	Oral407	Sample
+I21687-L1	57	E029865	I21687	I21687-L1	Injection_Naive	A	4	Injection	Naive	naive	Sample
+I21688-L1	58	E029866	I21688	I21688-L1	Injection_Naive	B	4	Injection	Naive	naive	Sample
+I21689-L1	59	E029867	I21689	I21689-L1	Injection_Wounded	A	4	Injection	Wounded	I-W	Sample
+I21690-L1	60	E029868	I21690	I21690-L1	Injection_Wounded	B	4	Injection	Wounded	I-W	Sample
+I21691-L1	61	E029869	I21691	I21691-L1	Injection_Priming	A	4	Injection	Priming	I	Sample
+I21692-L1	62	E029870	I21692	I21692-L1	Injection_Priming	B	4	Injection	Priming	I	Sample
+I21693-L1	63	E029871	I21693	I21693-L1	Oral_Medium	A	4	Oral	Medium	medium	Sample
+I21694-L1	64	E029872	I21694	I21694-L1	Oral_Medium	B	4	Oral	Medium	medium	Sample
+I21695-L1	65	E029873	I21695	I21695-L1	Oral_Btt	A	4	Oral	Btt	Oral	Sample
+I21696-L1	66	E029825	I21696	I21696-L1	Injection_Priming	B	2	Injection	Priming	I	Sample
+I21697-L1	67	E029874	I21697	I21697-L1	Oral_Bttol	A	4	Oral	Bttol	OralTol	Sample
+I21698-L1	68	E029875	I21698	I21698-L1	Oral_Bttol	B	4	Oral	Bttol	OralTol	Sample
+I21700-L1	70	E029876	I21700	I21700-L1	Oral_Bt407	B	4	Oral	Bt407	Oral407	Sample
+I21701-L1	71	E029877	I21701	I21701-L1	Injection_Naive	A	5	Injection	Naive	naive	Sample
+I21702-L1	72	E029878	I21702	I21702-L1	Injection_Naive	B	5	Injection	Naive	naive	Sample
+I21703-L1	73	E029879	I21703	I21703-L1	Injection_Wounded	A	5	Injection	Wounded	I-W	Sample
+I21704-L1	74	E029880	I21704	I21704-L1	Injection_Wounded	B	5	Injection	Wounded	I-W	Sample
+I21705-L1	75	E029881	I21705	I21705-L1	Injection_Priming	A	5	Injection	Priming	I	Sample
+I21706-L1	76	E029882	I21706	I21706-L1	Injection_Priming	B	5	Injection	Priming	I	Sample
+I21707-L1	77	E029883	I21707	I21707-L1	Oral_Medium	A	5	Oral	Medium	medium	Sample
+I21708-L1	78	E029884	I21708	I21708-L1	Oral_Medium	B	5	Oral	Medium	medium	Sample
+I21709-L1	79	E029885	I21709	I21709-L1	Oral_Btt	A	5	Oral	Btt	Oral	Sample
+I21710-L1	80	E029886	I21710	I21710-L1	Oral_Btt	B	5	Oral	Btt	Oral	Sample
+I21711-L1	81	E029887	I21711	I21711-L1	Oral_Bttol	A	5	Oral	Bttol	OralTol	Sample
+I21712-L1	82	E029888	I21712	I21712-L1	Oral_Bttol	B	5	Oral	Bttol	OralTol	Sample
+I21713-L1	83	E029889	I21713	I21713-L1	Oral_Bt407	A	5	Oral	Bt407	Oral407	Sample
+I21714-L1	84	E029890	I21714	I21714-L1	Oral_Bt407	B	5	Oral	Bt407	Oral407	Sample
+I21740-L1	87	E029847	I21740	I21740-L1	Oral_Bttol	B	2	Oral	Bttol	OralTol	Sample
+I21741-L1	88	E029819	I21741	I21741-L1	Oral_Bt407	B	1	Oral	Bt407	Oral407	Sample
