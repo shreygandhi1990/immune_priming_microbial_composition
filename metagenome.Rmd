@@ -182,6 +182,9 @@ table(contamdf.prev$contaminant)
 # threshold=0.5, will identify as contaminants all those ASVs which are more prevalent in negative controls than in the samples.
 contamdf.prev05 <- isContaminant(ps, method="prevalence", neg="is.neg", threshold=0.5)
 table(contamdf.prev05$contaminant)
+contaminants <- contamdf.prev05[contamdf.prev05$contaminant == TRUE,]
+contaminants_taxa <- tax_table(ps)[rownames(contaminants),]
+###################
 ps.pa <- transform_sample_counts(ps, function(abund) 1*(abund>0))
 ps.pa.neg <- prune_samples(sample_data(ps.pa)$Sample == "control", ps.pa)
 ps.pa.pos <- prune_samples(sample_data(ps.pa)$Sample == "Sample", ps.pa)
@@ -209,7 +212,7 @@ ps.noncontam <- prune_samples(sample_data(ps.noncontam)$Sample == "Sample", ps.n
 ps.noncontam
 # Number of features for each phyla
 table(tax_table(ps.noncontam)[, "Phylum"], exclude = NULL)
-
+unrecognised_phyla <- subset_taxa(ps.noncontam, is.na(Phylum) | Phylum %in% c("", "uncharacterized"))
 ps.noncontam <- subset_taxa(ps.noncontam, !is.na(Phylum) & !Phylum %in% c("", "uncharacterized"))
 # Compute prevalence of each feature:
 prevdf = apply(X = otu_table(ps),MARGIN = ifelse(taxa_are_rows(ps), yes = 1, no = 2),
@@ -241,10 +244,15 @@ ggplot(prevdf, aes(TotalAbundance, Prevalence / nsamples(ps.noncontam),color=Phy
   scale_fill_viridis_d()
 
 # Defining phylas to filter:
-filterPhyla = c("BRC1", "Deferribacteres","Elusimicrobia","Entotheonellaeota","Hydrogenedentes",
-                "Latescibacteria","Dependentiae","Cyanobacteria")
+filterPhyla = c("Cyanobacteria")
 # Filter entries with unidentified Phylum.
+cyano_phyla <- subset_taxa(ps.noncontam, Phylum %in% filterPhyla)
 ps1 = subset_taxa(ps.noncontam, !Phylum %in% filterPhyla)
+# Exporting contaminant and unassigned asvs:
+write.table(contaminants_taxa,file = "contaminants/contaminants_prev0.5_phyla.csv", sep = "\t")
+write.table(tax_table(unrecognised_phyla),file = "contaminants/unrecognised_phyla.csv", sep = "\t")
+write.table(tax_table(cyano_phyla),file = "contaminants/cyano_phyla.csv", sep = "\t")
+
 # Exporting files for MicrobiomeAnalyst analysis:
 write.tree(phy = phy_tree(ps1), file = "microbiomeanalyst/genetree_filtered_all.tre", tree.names = TRUE)
 write.table(tax_table(ps1),file = "microbiomeanalyst/ASVs_taxonomy_filtered.csv", sep = "\t")
@@ -257,7 +265,7 @@ gc(full = TRUE)
 ```
 
 
-## **Session Info:**
+## Session Info:
 ```{r info, echo=T, message=T, warning=T, fig.dim= c(12,8), fig.align= "centre", layout="l-body-outset"}
 sessionInfo()
 
